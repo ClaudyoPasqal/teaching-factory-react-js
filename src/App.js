@@ -1,24 +1,51 @@
-import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Routes
+} from "react-router-dom";
 import './App.css';
+import Landing from './components/Landing';
+import Login from './components/Login';
+import React from 'react';
+import Register from "./components/Register";
+import AfterPage from "./components/AfterPage";
+import BookPage from "./components/BookPage";
+import AfterCart from "./components/AfterCart";
+import AfterLoginCart from "./components/AfterLoginCart";
+import Cart from "./components/Cart";
+
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Routes>
+          <Route exact path="/" element={<Landing/>}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/login" element = {<Login/>}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/register" element = {<Register/>}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/after" element = {<AfterPage/>}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/book" element = {<BookPage />}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/bookcart" element = {<AfterCart />}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/aftercart" element = {<AfterLoginCart />}/>
+        </Routes>
+        <Routes>
+          <Route exact path="/cart" element = {<Cart />}/>
+        </Routes>
     </div>
+    </Router>
   );
 }
 
