@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/teaching-factory-react-js/static/css/main.b27007a8.css",
-    "main.js": "/teaching-factory-react-js/static/js/main.dbbb1e0d.js",
-    "static/js/787.9b1af680.chunk.js": "/teaching-factory-react-js/static/js/787.9b1af680.chunk.js",
-    "static/media/Background3.jpg": "/teaching-factory-react-js/static/media/Background3.f0b035f131e4af1d6164.jpg",
-    "index.html": "/teaching-factory-react-js/index.html",
-    "main.b27007a8.css.map": "/teaching-factory-react-js/static/css/main.b27007a8.css.map",
-    "main.dbbb1e0d.js.map": "/teaching-factory-react-js/static/js/main.dbbb1e0d.js.map",
-    "787.9b1af680.chunk.js.map": "/teaching-factory-react-js/static/js/787.9b1af680.chunk.js.map"
+    "main.css": "/teaching-factory-kontenbase/static/css/main.90ba7670.css",
+    "main.js": "/teaching-factory-kontenbase/static/js/main.c1c01e04.js",
+    "static/js/787.9b1af680.chunk.js": "/teaching-factory-kontenbase/static/js/787.9b1af680.chunk.js",
+    "static/media/Background3.jpg": "/teaching-factory-kontenbase/static/media/Background3.f0b035f131e4af1d6164.jpg",
+    "index.html": "/teaching-factory-kontenbase/index.html",
+    "main.90ba7670.css.map": "/teaching-factory-kontenbase/static/css/main.90ba7670.css.map",
+    "main.c1c01e04.js.map": "/teaching-factory-kontenbase/static/js/main.c1c01e04.js.map",
+    "787.9b1af680.chunk.js.map": "/teaching-factory-kontenbase/static/js/787.9b1af680.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b27007a8.css",
-    "static/js/main.dbbb1e0d.js"
+    "static/css/main.90ba7670.css",
+    "static/js/main.c1c01e04.js"
   ]
 }
