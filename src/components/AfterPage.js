@@ -7,6 +7,7 @@ function AfterPage(){
     return(
         <div>
             <NavbarAfter />
+            <br />
             <Content />
         </div>
     )
