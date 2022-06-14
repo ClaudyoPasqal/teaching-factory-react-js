@@ -1,9 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import NavbarCss from "./css/NavbarCart.module.css"
 
 
 function NavbarCart(){
+    
+    let navigate = useNavigate("")
+    const logout = async (e) =>{
+        e.preventDefault()
+        const { user, error } = await kontenbase.auth.logout()
+        navigate('/')
+        console.log(user, error)
+    }
     return(
     <div className={NavbarCss.isi}>
         <div className={NavbarCss.container}>
@@ -25,7 +33,7 @@ function NavbarCart(){
                 <div className={NavbarCss.menu}>
                     <ul>
                         <li><img src="../images/user 2.png" alt="" /><Link to="/">Profile</Link></li>
-                        <li className={NavbarCss.border}><img src="../images/logout 1.png" alt="" />Logout</li>
+                        <li className={NavbarCss.border} onClick={logout}><img src="../images/logout 1.png" alt="" />Logout</li>
                     </ul>
                 </div>
             </div>
